@@ -1,0 +1,96 @@
+@charset "utf-8";
+/* CSS Document */
+#style1 {
+	font-family: "方正中倩简体";
+	font-size: 32px;
+	line-height: 40px;
+	font-weight: bold;
+	color: #FFF;
+	background-image: url(image/top.png);
+	background-repeat: repeat-y;
+	height: 40px;
+	width: 945px;
+	padding-left: 35px;
+	
+}
+
+
+.pic1{
+	float:left;
+	padding-top:5px;
+	padding-left:5px;
+	padding-right:30px;
+	padding-bottom:5px;
+
+}
+.pic2 img{
+	padding-left:20px;
+	padding-right:10px;
+	padding-top:5px;
+	padding-bottom:10px;
+}
+#test1{	
+	font-family:"方正中倩简体";
+	font-size:16px;
+	line-height:20px;
+	color:#03F;
+	padding-top:25px;
+	padding-right:20px;
+}
+#shang{
+	width:980px;
+    height:295px;
+}
+#test2{
+		font-family: "方正中倩简体";
+	font-size: 16px;
+	color: #F39;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	width: 300px;
+	height: 20px;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #F39;
+	border-bottom-color: #F39;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+}
+#cheat{
+	width:980px;
+	height:410px;
+}
+.foot-bottom{
+	height: 160px;
+	border: 2px solid #F06;
+	margin-bottom:30px;
+	margin-top:30px;
+	
+}
+.foot-bottom img {
+	padding-top: 10px;
+	margin-left:24px;
+	
+}
+.footer{
+	height:23px;
+	
+	background:url(images_sj/2.jpg);
+}
+.foot-text{
+	width: 170px;
+	height: 24px;
+	float: left;
+	text-align: center;
+	font-size:12px;
+	line-height:24px;
+	margin-right:10px;
+	margin-left:10px;
+	color:#06F;
+	font-family:"方正华隶简体";
+}

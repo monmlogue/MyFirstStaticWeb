@@ -1,0 +1,295 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="style1.css" />
+<link rel="stylesheet" type="text/css" href="style2.css" />
+<link rel="stylesheet" type="text/css" href="style4.css" />
+<title>澄海风景</title>
+</head>
+
+<body>
+
+<div class="bg">
+ <div id="contain">
+
+
+<div id="head"><a href="index1.html"><img src="image/980x90.jpg" width="980" height="90" /></a></div>
+<!-- #EndLibraryItem -->
+<div class="clearfloat"></div>
+    <div>
+      <ul class="nav">
+        <li><a href="index2.html">走进澄海</a></li>
+        <li><a href="index3.html">澄海特色</a></li>
+        <li><a href="#">澄海风景</a></li>
+        <li><a href="index5.html">关于澄海</a></li>
+      </ul>
+    </div>
+   
+<div class="clearfloat"></div>
+
+
+<p></p><!-- #BeginLibraryItem "/Library/标题1.lbi" --><div id="style1">澄海简介</div><!-- #EndLibraryItem --><!--左
+      <div class="left">
+       <ul class="ul">
+        <li>科隆千树园</li>
+        <li>协和生态园</li>
+        <li>塔山风景区</li>
+        <li>莲华4A风景区</li>
+        <li>莱芜美景</li>
+        <li>陈慈簧故居</li>
+     
+       </ul> 
+
+   </div>
+
+!-->
+
+
+<div class="middle">
+
+  <div class="shang"><img src="image/130923042213angizn.jpg" width="216" height="160" />
+  
+  
+  
+  
+  
+  
+    <img src="image/130930115203ntezrn.jpg" width="216" height="160" /><img src="image/130930121020xaxgcg.jpg" width="216" height="160" /><img src="image/130930121300niqdzg.jpg" width="216" height="160" /></div>
+  
+  <div class="zhong">
+  
+  <div class="foot-text">澄海动物舞蹈</div>
+  <div class="foot-text">狮头鹅斗舞</div>
+  <div class="foot-text">双龙舞
+  </div>
+  <div class="foot-text">蜈蚣吐珠</div>
+  
+  
+  
+  </div>
+  
+  <div class="xia"><img src="image/zuimeichengzhen1.jpg" width="440" height="350" /><span class="text"><img src="image/mountain1.jpg" width="440" height="330" /></span>
+    <div class="text">澄海妙境——塔山风景区，是澄海最早开发的旅游区之一，是省级风景名胜区。虽无北方名山大川的壮阔，却有南国小家碧玉的秀丽。 山中：宋代古寺，人间佛国；平湖如幻，云影水心；佛井龙泉，神来之品。葱岭逶迤而秀峰巧立；怪石嶙峋而林泉清真。观摩崖石刻，苍扑劲拔，赏诗词联语，无声自禅。曲径通幽；亭阁隐约于茂丛翠岗。古云：“塔山本无塔，有石似塔名亦异”。
+      
+    新成思安塔耸立粤东，登高望远而让游人心旷神怡，海天一色，尽收眼底。是以天地造物，极具神妙。故塔山山水之乐，神韵无穷，若非亲临其境，难尽其妙！</div>
+
+
+<div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div>
+
+<SCRIPT>
+  var dir=1;//每步移动像素，大＝快
+  var speed=10;//循环周期（毫秒）大＝慢
+  var MyMar=null;
+  function Marquee(){//正常移动
+   var demo = document.getElementById("demo");
+   var demo2 = document.getElementById("demo2");
+   if (dir>0  && (demo2.offsetWidth-demo.scrollLeft)<=0)
+   {
+    demo.scrollLeft=0;
+   }
+   if (dir<0 &&(demo.scrollLeft<=0))
+   {
+    demo.scrollLeft=demo2.offsetWidth;
+   }
+   demo.scrollLeft+=dir;
+  }
+  function onmouseoverMy() {
+   window.clearInterval(MyMar);
+  }//暂停移动
+  function onmouseoutMy() {
+   MyMar=setInterval(Marquee,speed);
+  }//继续移动
+  function r_left()
+  {
+   if (dir==-1)
+    dir=1;
+  }//换向左移
+  function r_right()
+  {
+   if (dir==1)
+    dir=-1;
+  }//换向右移
+ 
+  function IsIE()
+  {
+   var browser=navigator.appName
+   if ((browser=="Netscape"))
+   {
+    return false;
+   }
+   else if(browser=="Microsoft Internet Explorer")
+   {
+    return true;
+   }
+   else
+   {
+    return null;
+   }
+  }
+  
+  var _IsIE = IsIE();
+  var _MousePX = 0;
+  var _MousePY = 0;
+  var _DivLeft = 0;
+  var _DivRight = 0;
+  var _AllDivWidth = 0;
+  var _AllDivHeight = 0;
+  function MoveDiv(e){
+   var obj = document.getElementById("demo");
+     _MousePX = _IsIE ? (document.body.scrollLeft + event.clientX) : e.pageX;
+    _MousePY = _IsIE ? (document.body.scrollTop + event.clientY) : e.pageY;
+   //Opera Browser Can Support ''window.event'' and ''e.pageX''
+   var obj1 = null;
+   if(obj.getBoundingClientRect)
+   {
+    //IE
+    obj1 = document.getElementById("demo").getBoundingClientRect();
+    _DivLeft = obj1.left;
+    _DivRight = obj1.right;
+	 _AllDivWidth = _DivRight - _DivLeft;
+   }
+   else if(document.getBoxObjectFor)
+   {
+    //FireFox
+    obj1 = document.getBoxObjectFor(obj); 
+    var borderwidth = (obj.style.borderLeftWidth != null && obj.style.borderLeftWidth != "") ? parseInt(obj.style.borderLeftWidth) : 0;
+    _DivLeft = parseInt(obj1.x) - parseInt(borderwidth);
+    _AllDivWidth = Cut_Px(obj.style.width);
+    _DivRight = _DivLeft + _AllDivWidth;
+   }
+   else
+   {
+    //Other Browser(Opera)
+    _DivLeft = obj.offsetLeft;
+    _AllDivWidth = Cut_Px(obj.style.width);
+    var parent = obj.offsetParent;
+    if(parent != obj)
+    {
+     while (parent) {  
+      _DivLeft += parent.offsetLeft; 
+      parent = parent.offsetParent;
+     }
+    }
+    _DivRight = _DivLeft + _AllDivWidth;
+   }
+ 
+   var pos1,pos2;
+   pos1 = parseInt(_AllDivWidth * 0.4) + _DivLeft;
+   pos2 = parseInt(_AllDivWidth * 0.6) + _DivLeft;
+ 
+   if(_MousePX > _DivLeft && _MousePX < _DivRight)
+   {
+    if(_MousePX > _DivLeft && _MousePX < pos1)//Move left
+    {
+     r_left();
+    }
+    else if(_MousePX < _DivRight && _MousePX > pos2)//Move right
+    {
+     r_right();
+    }
+	if(_MousePX > pos1 && _MousePX < pos2)//Stop
+    {
+     onmouseoverMy();
+     MyMar=null;
+    }else if(_MousePX < pos1 || _MousePX > pos2)
+    {
+     if(MyMar==null)
+     {
+      MyMar=setInterval(Marquee,speed);
+     }
+    }
+   }
+  }
+ 
+  function Cut_Px(cswidth)
+  {
+   cswidth = cswidth.toLowerCase();
+   if(cswidth.indexOf("px") != -1)
+   {
+    cswidth.replace("px","");
+    cswidth = parseInt(cswidth);
+   }
+   return cswidth;
+  }
+ 
+  function MoveOutDiv()
+  {
+   if(MyMar == null)
+   {
+    MyMar=setInterval(Marquee,speed);
+   }
+  }
+
+ </SCRIPT>
+ 
+ <div style="width:100%;text-align:left">
+   <DIV id="demo" style="OVERFLOW: hidden; WIDTH: 980px; COLOR: #ffffff; HEIGHT: 200px" onmousemove="MoveDiv(event);" onmouseout="MoveOutDiv();">
+     
+     
+     <div id="demo1" style="width:100%;">
+                  <TABLE cellSpacing=0 cellPadding=0>
+                    <TBODY>
+                    <TR vAlign=top>
+                      <TD vAlign=top noWrap>
+                        <DIV align=right>
+                      <img src="image/001.jpg" width="362" height="200" /><img src="image/002.jpg" width="301" height="200" /><img src="image/003.jpg" width="268" height="200" /><img src="image/005.jpg" width="292" height="200" /><img src="image/water.jpg" width="300" height="200" /> <img src="image/zhanglin.jpg" width="267" height="200" /> <img src="image/tang3.jpg" width="283" height="200" /></DIV></TD></TR></TBODY></TABLE></TD>
+            <TD width="0">
+        <div id="demo2" style="width:100%;"></div>
+       </TD>
+        </TR></TBODY></TABLE>
+      </DIV>
+</div>
+<script type="text/javascript">
+ document.getElementById("demo2").innerHTML = document.getElementById("demo1").innerHTML;
+ MyMar=setInterval(Marquee,speed);
+</script>
+	
+	
+	</div><!-- #BeginLibraryItem "/Library/页脚.lbi" --><div id="foot"><img src="image/999x201.jpg" width="980" height="138" title="外砂桥" /></div><!-- #EndLibraryItem --></div><!-- #BeginLibraryItem "/Library/声明.lbi" --><p></p>
+    <div>
+      <div class="footer1"><h4>版权所有：广东工贸职业技术学院</h1>
+                           <h5>15软件外包服务班&nbsp;1538134许春成</h5>
+      </div>
+      <div class="footer2"><p>联系方式：739903178@qq.com</p></div>
+    
+    
+    </div>  <!-- #EndLibraryItem --></div>
+</body>
+</html>

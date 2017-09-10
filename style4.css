@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+
+.middle{
+	width:980px;
+	height:765px;
+}
+.shang{
+	width: 980px;
+	height: 180px;
+	
+}
+.zhong{
+	width:980px;
+	height:45px;
+}
+.xia{
+	width:980px;
+	height:540px;
+}
+.foot-text{
+	width: 170px;
+	height: 24px;
+	float: left;
+	text-align: center;
+	font-size:12px;
+	line-height:24px;
+	margin-right:35px;
+	margin-left:35px;
+	color:#06F;
+	font-family:"方正华隶简体";
+}
+.text {
+	font-family: "方正中倩简体";
+	font-size: 16px;
+	line-height: 24px;
+	color: #09C;
+	padding-top: 40px;
+	padding-right: 20px;
+	padding-left: 50px;
+}
+.

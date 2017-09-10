@@ -1,0 +1,167 @@
+@charset "utf-8";
+
+.bg {
+	height:1400px;
+	
+	background-image:url(image/bg1.png);
+	background-repeat: repeat-x;	
+	margin-top:-10px;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+.nav {
+	height: 45px;
+	width: 980px;
+	margin:auto;
+	margin-left:-40px;
+}
+.nav li{
+	list-style-type:none;
+	float:left;
+	width:245px;
+	height:45px;
+	line-height:45px;
+	text-align:center;
+}
+.nav li a:link,.nav li a:visited{
+	font-family:"方正中倩简体";
+	font-size:20px;
+	
+	width:245px;
+	height:45px;
+	display:block;
+	text-decoration:none;
+	background-image:url(image/daohang1.png);
+	color:#FFF;
+}
+.nav li a:hover{
+	background:url(image/dh1.png);
+	color:FFF;
+}
+.clearfloat{
+	font-size:0;
+	clear:both;
+	height:0;
+	line-height:0px;
+}
+
+#contain {
+	height: 1300px;
+	width: 980px;
+margin:auto;
+	background-color: #FFF;
+	
+	
+}
+#head{
+	height:90px;
+	width:980px;
+	background-image:url(image/980x90.jpg);
+	margin:auto;
+}
+
+
+#left1{
+	width:440px;
+	
+	float:left;
+}
+
+#right1{
+	width: 530px;
+	float: right;
+	border: 2px solid #09F;
+	height: 553px;
+}
+#left1 img {
+	margin-right: 20px;
+	margin-left: 20px;
+	border: 2px solid #09F;
+	margin-top: 10px;
+}
+#right1 img {
+	margin-left: 5px;
+
+}
+#right-text{
+	width:530px;
+	height:20px;
+}
+#right-text li{
+	list-style-type:none;
+	float:left;
+	width:260px;
+	height:20px;
+	line-height:20px;
+	text-align:center;
+	font-family:"方正中倩简体";
+	font-size:12px;
+	color:#09F;
+}
+#left2{
+	width: 546px;
+	float: left;
+	border: 2px solid #0CF;
+}
+#right2{
+	width:430px;
+	float:right;
+}
+#left2 img {
+	margin-top: 20px;
+	margin-right: 9px;
+	margin-bottom: 5px;
+	margin-left: 9px;
+}
+#right2 img {
+	margin-top: 15px;
+	margin-left: 13px;
+}
+#right2-top{
+    width:415px;
+	height:35px;
+	margin-top:20px;
+	background-image:url(image/title1.png);
+	font-family:"方正中倩简体";
+	color:#FFF;
+	font-size:20px;
+	line-height:35px;
+	padding-left:15px;
+}
+#foot{
+	width:980px;
+	clear:both;
+	
+}
+#foot img{
+	margin-top:8px;
+}
+.footer1{
+	font-family:"方正中倩简体";
+	font-size:14px;
+	color:#FF0;
+	text-align:center;
+}
+.footer2{
+	font-family:"方正中倩简体";
+	font-size:12px;
+	color:#666;
+	text-align:center;
+}
+.shang img {
+	margin-top: 15px;
+	margin-right: 10px;
+	margin-left: 12px;
+	margin-bottom: 15px;
+	border: 2px solid #06C;
+}
+.xia img {
+	float: left;
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	padding-left: 15px;
+}

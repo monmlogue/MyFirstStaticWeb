@@ -1,0 +1,49 @@
+@charset "utf-8";
+#style1 {
+	font-family: "方正中倩简体";
+	font-size: 32px;
+	line-height: 40px;
+	font-weight: bold;
+	color: #FFF;
+	background-image: url(image/top.png);
+	background-repeat: repeat-y;
+	height: 40px;
+	width: 945px;
+	padding-left: 35px;
+	
+}
+#style2 {
+	font-family: "方正中倩简体";
+	font-size: 16px;
+	font-weight: normal;
+	color: #00F;
+	background-color: #3CF;
+	width: 500px;
+	padding-top: 35px;
+	float: left;
+	height: 261px;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+#pic1 {
+	float: left;
+}
+
+#contain table {
+	font-family: "方正中倩简体";
+	color: #FFFFFF;
+	color: #09F;
+}
+#style3{
+    width:980px;
+	height:60px;
+	font-family:"方正中倩简体";
+	font-size:18px;
+	color:#09F;
+	padding-top:30px;
+}
+#style-map{
+	padding-top: 30px;
+	padding-left: 110px;
+	padding-bottom: 30px;
+}

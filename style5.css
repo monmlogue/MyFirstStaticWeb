@@ -1,0 +1,208 @@
+@charset "utf-8";
+/* CSS Document */
+.bg1 {
+	height:1950px;
+	
+	background-image:url(image/bg1.png);
+	background-repeat: repeat-x;	
+	margin-top:-10px;
+	margin-bottom:auto;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+#contain1 {
+	height: 1850px;
+	width: 980px;
+	margin: auto;
+	background-image:url(image/CHbg1.jpg);
+	
+	
+}
+.left{
+	width:290px;
+	height:1450px;
+	float:left
+}
+.middle{
+	float: left;
+	width: 400px;
+	height: 1450px;
+}
+.middle img{
+	margin-top:10px;
+	margin-bottom:10px;
+}
+.right{
+	width:290px;
+	height:1450px;
+	float:left
+}
+#style1{
+	font-family: "方正中倩简体";
+	font-size: 16px;
+	color: #F39;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	width: 300px;
+	height: 20px;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #F39;
+	border-bottom-color: #F39;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+}
+#style1-1{
+	font-family: "方正中倩简体";
+	font-size: 16px;
+	color: #F39;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	width: 400px;
+	height: 20px;
+	border-top-width: 2px;
+	border-bottom-width: 2px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #F39;
+	border-bottom-color: #F39;
+	margin-top: 5px;
+	margin-right: auto;
+	margin-bottom: 5px;
+	margin-left: auto;
+}
+#left01{
+	width: 230px;
+	height: 170px;
+	padding-top: 80px;
+	padding-left: 35px;
+	padding-right: 20px;
+	padding-bottom: 30px;
+	font-family: "方正中倩简体";
+	font-size: 16px;
+	color: #06F;
+	line-height: 24px;
+
+}
+#right01{
+	width:230px;
+	height:170px;
+    padding-top:80px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:30px;
+	font-family:"方正中倩简体";
+	font-size:16px;
+	color:#F03;
+	line-height:30px;
+	
+}
+#left02{
+	width:250px;
+	height:270px;
+    padding-top:40px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:10px;
+	font-family:"方正中倩简体";
+	font-size:16px;
+	color:#06F;
+	line-height:24px;
+	
+}
+#right01{
+	width:230px;
+	height:170px;
+    padding-top:80px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:30px;
+	font-family:"方正中倩简体";
+	font-size:16px;
+	color:#F03;
+	line-height:26px;
+	
+}
+#right02{
+	width:230px;
+	height:170px;
+    padding-top:65px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:30px;
+	font-family:"方正中倩简体";
+	font-size:16px;
+	color:#F03;
+	line-height:26px;
+	
+}
+#left03{
+	width:250px;
+	height:270px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:10px;
+	font-family:"方正中倩简体";
+	font-size:16px;
+	color:#06F;
+	line-height:24px;
+	
+}
+#right03{
+	width:250px;
+	height:270px;
+	padding-top:60px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:10px;
+	font-family:"方正中倩简体";
+	font-size:16px;
+	color:#F03;
+	line-height:24px;
+	
+}
+#left04{
+	width:250px;
+	height:270px;
+    padding-top:15px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:10px;
+	font-family:"方正中倩简体";
+	font-size:16px;
+	color:#06F;
+	line-height:24px;
+	
+}
+#left05{
+	width:250px;
+	height:270px;
+    padding-top:5px;
+	padding-left:20px;
+	padding-right:20px;
+	padding-bottom:10px;
+	font-family:"方正中倩简体";
+	font-size:16px;
+	color:#06F;
+	line-height:24px;
+}
+#right04{
+	width: 250px;
+	height: 270px;
+	padding-top: 80px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	font-family: "方正中倩简体";
+	font-size: 18px;
+	color: #F39;
+	line-height: 28px;
+
+}
